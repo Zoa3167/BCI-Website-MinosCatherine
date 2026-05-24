@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+"""Install dependencies and run BCI Explorer locally."""
+
+from __future__ import annotations
+
+import os
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parent
+
+
+def run(command: list[str]) -> None:
+    print(f"\n> {' '.join(command)}", flush=True)
+    subprocess.run(command, cwd=ROOT, check=True)
+
+
+def main() -> int:
+    if not (ROOT / "package.json").exists():
+        print("package.json was not found next to RUN.", file=sys.stderr)
+        return 1
+
+    if shutil.which("node") is None or shutil.which("npm") is None:
+        print(
+            "Node.js and npm are required. Install Node.js, then run: python3 RUN",
+            file=sys.stderr,
+        )
+        return 1
+
+    try:
+        run(["npm", "install"])
+    except subprocess.CalledProcessError as exc:
+        print(f"Dependency installation failed with exit code {exc.returncode}.", file=sys.stderr)
+        return exc.returncode
+
+    host = os.environ.get("HOST", "127.0.0.1")
+    port = os.environ.get("PORT", "5173")
+    print(f"\nBCI Explorer will be available at http://{host}:{port}", flush=True)
+
+    try:
+        run(["npm", "run", "dev", "--", "--host", host, "--port", port])
+    except KeyboardInterrupt:
+        print("\nStopped local server.")
+        return 0
+    except subprocess.CalledProcessError as exc:
+        return exc.returncode
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
