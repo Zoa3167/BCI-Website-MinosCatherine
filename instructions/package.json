@@ -1,0 +1,17 @@
+{
+  "name": "bci-explorer-codex-package",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Design and data package for building the BCI Explorer interactive website.",
+  "suggestedDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "recharts": "latest",
+    "tailwindcss": "latest"
+  },
+  "notes": "This is not a ready-to-run app; it is a Codex-ready design/data package. Ask Codex to create the app using these files."
+}

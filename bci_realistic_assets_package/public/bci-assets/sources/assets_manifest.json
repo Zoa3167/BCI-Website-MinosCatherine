@@ -1,0 +1,116 @@
+{
+  "packagePurpose": "Realistic visual assets and source references for BCI Explorer website animation redesign.",
+  "usageRule": "Use these images as realistic references/backgrounds. Add animated overlays for labels, signal flow, device movement, brain region highlights, and cell-response effects.",
+  "assets": [
+    {
+      "id": "invasive_utah_array_patent",
+      "fileName": "invasive_utah_array_patent.jpg",
+      "type": "invasive_bci_device_reference",
+      "recommendedWebsiteUse": ["Landing page invasive BCI card", "Electrode-type selection: Utah Electrode Array"],
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Utah_array_pat5215088.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Utah_array_pat5215088.jpg",
+      "licenseNote": "Wikimedia Commons; derived from US Patent #5,215,088; generally public domain for US patent contents; verify final legal status for production.",
+      "attribution": "Richard A. Normann, US Patent #5,215,088, via Wikimedia Commons"
+    },
+    {
+      "id": "noninvasive_bci_experiment",
+      "fileName": "noninvasive_bci_experiment.jpg",
+      "type": "non_invasive_bci_realistic_reference",
+      "recommendedWebsiteUse": ["Landing page non-invasive BCI card", "Non-invasive BCI page background", "EEG signal-screen demonstration"],
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Brain-computer_interface_experiment.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Brain-computer_interface_experiment.jpg",
+      "licenseNote": "CC BY 4.0. Attribution required.",
+      "attribution": "Laurens R. Krol, Brain-computer interface experiment, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "id": "eeg_recording_cap_closeup",
+      "fileName": "eeg_recording_cap_closeup.jpg",
+      "type": "non_invasive_eeg_cap_closeup",
+      "recommendedWebsiteUse": ["Drag-and-drop EEG cap component", "EEG cap realistic texture/reference"],
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/EEG_Recording_Cap.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:EEG_Recording_Cap.jpg",
+      "licenseNote": "CC BY 2.0. Attribution required. Wikimedia page also includes a personality-rights warning because a person is shown.",
+      "attribution": "Chris Hope, EEG Recording Cap, CC BY 2.0, via Wikimedia Commons/Flickr"
+    },
+    {
+      "id": "bci_system_public_domain",
+      "fileName": "bci_system_public_domain.jpg",
+      "type": "clinical_bci_system_reference",
+      "recommendedWebsiteUse": ["Non-invasive assistive-device concept", "BCI-to-computer connection reference"],
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Brain-computer_interface_%28BCI%29_system.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Brain-computer_interface_%28BCI%29_system.jpg",
+      "licenseNote": "Public domain / NIH source as marked on Wikimedia Commons; note the Wikimedia page advises confirming federal-government origin.",
+      "attribution": "Wadsworth Center / NIH MedlinePlus source, public domain mark, via Wikimedia Commons"
+    },
+    {
+      "id": "brain_lobes_svg",
+      "fileName": "brain_lobes.svg",
+      "type": "brain_region_map",
+      "recommendedWebsiteUse": ["Invasive page brain-region selector", "Motor/speech/visual/somatosensory region highlighting"],
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lobes_of_the_brain_NL.svg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lobes_of_the_brain_NL.svg",
+      "licenseNote": "Gray's Anatomy-derived public domain anatomy illustration, vectorized/retouched on Wikimedia Commons.",
+      "attribution": "Henry Vandyke Carter / Gray's Anatomy; vectorized by Mysid, via Wikimedia Commons"
+    },
+    {
+      "id": "frontiers_implanted_arrays_fig1",
+      "fileName": "frontiers_implanted_arrays_fig1.webp",
+      "type": "real_implanted_utah_array_intraoperative_reference",
+      "recommendedWebsiteUse": ["Invasive implantation animation reference", "Show electrode arrays in different cortex locations"],
+      "sourceUrl": "https://www.frontiersin.org/files/Articles/759711/xml-images/fbioe-09-759711-g001.webp",
+      "sourcePage": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2021.759711/full",
+      "licenseNote": "Frontiers open-access article under CC BY. Attribution required. Use carefully; contains intraoperative medical imagery.",
+      "attribution": "Woeppel et al. 2021, Frontiers in Bioengineering and Biotechnology, CC BY"
+    },
+    {
+      "id": "frontiers_impedance_performance_fig2",
+      "fileName": "frontiers_impedance_performance_fig2.webp",
+      "type": "real_data_graph_reference",
+      "recommendedWebsiteUse": ["Professional mode example: impedance/performance over time", "Data graph style reference"],
+      "sourceUrl": "https://www.frontiersin.org/files/Articles/759711/xml-images/fbioe-09-759711-g002.webp",
+      "sourcePage": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2021.759711/full",
+      "licenseNote": "Frontiers open-access article under CC BY. Attribution required.",
+      "attribution": "Woeppel et al. 2021, Frontiers in Bioengineering and Biotechnology, CC BY"
+    },
+    {
+      "id": "frontiers_encapsulation_fig3",
+      "fileName": "frontiers_encapsulation_fig3.webp",
+      "type": "real_tissue_encapsulation_reference",
+      "recommendedWebsiteUse": ["Brain tissue response page", "Realistic tissue/cell response reference", "Professional mode encapsulation explanation"],
+      "sourceUrl": "https://www.frontiersin.org/files/Articles/759711/xml-images/fbioe-09-759711-g003.webp",
+      "sourcePage": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2021.759711/full",
+      "licenseNote": "Frontiers open-access article under CC BY. Attribution required.",
+      "attribution": "Woeppel et al. 2021, Frontiers in Bioengineering and Biotechnology, CC BY"
+    },
+    {
+      "id": "frontiers_damage_encapsulation_fig5",
+      "fileName": "frontiers_damage_encapsulation_fig5.webp",
+      "type": "real_electrode_damage_encapsulation_reference",
+      "recommendedWebsiteUse": ["Brain tissue response page", "Show low/high damage or encapsulation", "Professional-mode material degradation explanation"],
+      "sourceUrl": "https://www.frontiersin.org/files/Articles/759711/xml-images/fbioe-09-759711-g005.webp",
+      "sourcePage": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2021.759711/full",
+      "licenseNote": "Frontiers open-access article under CC BY. Attribution required.",
+      "attribution": "Woeppel et al. 2021, Frontiers in Bioengineering and Biotechnology, CC BY"
+    },
+    {
+      "id": "frontiers_degradation_maps_fig6",
+      "fileName": "frontiers_degradation_maps_fig6.webp",
+      "type": "real_material_degradation_reference",
+      "recommendedWebsiteUse": ["Professional mode degradation maps", "Material degradation/encapsulation comparison reference"],
+      "sourceUrl": "https://www.frontiersin.org/files/Articles/759711/xml-images/fbioe-09-759711-g006.webp",
+      "sourcePage": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2021.759711/full",
+      "licenseNote": "Frontiers open-access article under CC BY. Attribution required.",
+      "attribution": "Woeppel et al. 2021, Frontiers in Bioengineering and Biotechnology, CC BY"
+    },
+    {
+      "id": "frontiers_stimulation_damage_fig7",
+      "fileName": "frontiers_stimulation_damage_fig7.webp",
+      "type": "real_stimulation_degradation_reference",
+      "recommendedWebsiteUse": ["Professional mode stimulation-related damage", "Invasive BCI result panel"],
+      "sourceUrl": "https://www.frontiersin.org/files/Articles/759711/xml-images/fbioe-09-759711-g007.webp",
+      "sourcePage": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2021.759711/full",
+      "licenseNote": "Frontiers open-access article under CC BY. Attribution required.",
+      "attribution": "Woeppel et al. 2021, Frontiers in Bioengineering and Biotechnology, CC BY"
+    }
+  ]
+}
